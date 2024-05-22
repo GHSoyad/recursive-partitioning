@@ -27,6 +27,10 @@ function split(e) {
       <button onclick="split(event)">H</button>
     </div>
   </div>`
+
+  if (e.target.innerText === "H") {
+    parent.style.flexDirection = 'column';
+  }
 }
 
 window.split = split;

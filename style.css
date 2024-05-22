@@ -23,6 +23,8 @@ body {
   align-items: center;
   justify-content: center;
   background-color: aquamarine;
+  overflow: auto;
+  resize: both;
 }
 
 .button-container {
