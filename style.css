@@ -25,6 +25,7 @@ body {
   background-color: aquamarine;
   overflow: auto;
   resize: both;
+  position: relative;
 }
 
 .button-container {
@@ -41,6 +42,14 @@ button {
   border: 1px solid gray;
   cursor: pointer;
   user-select: none;
+}
+
+button.remove {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 4px 8px;
+  font-weight: 700;
 }
 
 button:hover {
